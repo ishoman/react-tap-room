@@ -9,6 +9,7 @@ import Employee from './Employee';
 function App(){
   return (
     <div>
+      <Header/>
       <Switch>
         <Route exact path='/' component={Welcome}></Route>
         <Route path='/employee' component={Employee}></Route>

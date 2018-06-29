@@ -6,7 +6,7 @@ function KegInfo(props) {
   return (
     <div>
       <h4>{props.name}</h4>
-      <p>{props.description}</p>
+      <p>{props.brand}</p>
       <p>{props.price}</p>
       <p>{props.abv}</p>
       <p>{props.remainingPints}</p>
@@ -16,7 +16,7 @@ function KegInfo(props) {
 
 KegInfo.propTypes = {
   name: PropTypes.string.isRequired,
-  description: PropTypes.string.isRequired,
+  brand: PropTypes.string.isRequired,
   price: PropTypes.number.isRequired,
   abv: PropTypes.number.isRequired,
   remainingPints: PropTypes.number.isRequired,
