@@ -20,6 +20,6 @@ KegInfo.propTypes = {
   price: PropTypes.number.isRequired,
   abv: PropTypes.number.isRequired,
   remainingPints: PropTypes.number.isRequired,
-}
+};
 
 export default KegInfo;

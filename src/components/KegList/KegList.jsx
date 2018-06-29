@@ -35,18 +35,10 @@ const beerList = [
 function KegList() {
   return (
     <div>
-      {beerList.map((keg, index) =>
-        <Keg
-          name={keg.name}
-          brand={keg.brand}
-          price={keg.price}
-          abv={keg.abv}
-          remainingPints={keg.remainingPints}
-          key={index}
-          />
-      )}
+      <Keg/>
     </div>
   );
 }
 
+export { beerList };
 export default KegList;
