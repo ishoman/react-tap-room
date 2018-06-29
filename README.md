@@ -44,11 +44,11 @@ _The original prompt was to create a CRUD web application for an imaginary tap r
 * _Navigate to directory in Terminal_
 * _Run npm install_
 * _Run npm start_
-* _Project will open browser window and localhost:8080 _
+* _Project will open browser window and localhost:8080_
 
 ## Known Bugs
 
-_No known bugs_
+_Images not displaying properly_
 
 ## Support and Contact Details
 
@@ -56,8 +56,8 @@ _You may email me at isaac.shoman@gmail.com with any questions or feedback_
 
 ## Technologies Used
 
-_ReactJS_
-_React-Router_
+* _ReactJS_
+* _React-Router_
 
 ### License
 
