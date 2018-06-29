@@ -1,11 +1,12 @@
 import React from 'react';
 
 
-function Keg() {
+function SellPint() {
   return (
     <div>
-
+      <button>Sell Pint</button>
     </div>
-
   );
 }
+
+export default SellPint;

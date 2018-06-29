@@ -1,11 +1,13 @@
 import React from 'react';
 
 
-function Keg() {
+function EditKeg() {
   return (
     <div>
-
+      <button>Edit Keg</button>
     </div>
 
   );
 }
+
+export default EditKeg;

@@ -1,11 +1,12 @@
 import React from 'react';
 
 
-function Keg() {
+function KegImage() {
   return (
     <div>
 
     </div>
-
   );
 }
+
+export default KegImage;

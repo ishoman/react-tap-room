@@ -1,11 +1,25 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 
-function Keg() {
+function KegInfo(props) {
   return (
     <div>
-
+      <h4>{props.name}</h4>
+      <p>{props.description}</p>
+      <p>{props.price}</p>
+      <p>{props.abv}</p>
+      <p>{props.remainingPints}</p>
     </div>
-
   );
 }
+
+KegInfo.propTypes = {
+  name: PropTypes.string.isRequired,
+  description: PropTypes.string.isRequired,
+  price: PropTypes.number.isRequired,
+  abv: PropTypes.number.isRequired,
+  remainingPints: PropTypes.number.isRequired,
+}
+
+export default KegInfo;
