@@ -1,6 +1,5 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import test from './../assets/images/test.jpg';
 import PropTypes from 'prop-types';
 
 function Error404(props){

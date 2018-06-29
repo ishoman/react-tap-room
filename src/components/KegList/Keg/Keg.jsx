@@ -5,6 +5,7 @@ import SellPint from './KegItems/SellPint';
 import { beerList } from './../../KegList/KegList';
 
 
+
 function Keg() {
   return (
     <div>
@@ -15,8 +16,9 @@ function Keg() {
           price={keg.price}
           abv={keg.abv}
           remainingPints={keg.remainingPints}
+          image={keg.image}
           key={index}
-          />
+        />
       )}
       <SellPint/>
       <EditKeg/>
