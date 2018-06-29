@@ -8,9 +8,11 @@
 
 _The original prompt was to create a CRUD web application for an imaginary tap room. This new project is to recreate that old application using React instead of using Angular._
 
-#Project Structure
+# Project Structure
 
-![alt text](imgs/adidas-page.png)
+![alt text](Artboard.png)
+
+* I wasn't 100% sure how to structure the employee page as far as having components that hide and show when buttons are clicked. I also wasn't sure how data will be passed through input and such so I just generally said that there would be an add form for adding new kegs to the list.
 
 ## Notes
 
