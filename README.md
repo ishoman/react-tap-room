@@ -16,6 +16,7 @@ _The original prompt was to create a CRUD web application for an imaginary tap r
 
  * Even during the first look at the angular application I can see that the cards that have the kegs on them will need to be broken down into a bunch of smaller components rather than a single component like it is in angular.
  * Really concentrating on how small of components to make. i.e. Does keg price need to be its own component? Or can I just include that in a proptype for keg info?
+ * Having to decide on a different layout for employees vs consumers. Allows for reuse of keg-list component with addition of edit/add buttons and functionality
 
 ## Setup/Installation Requirements
 
