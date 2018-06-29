@@ -6,7 +6,7 @@
 
 ## Description
 
-_The original prompt was to create a CRUD web application for an imaginary tap room. This new project is to recreate that old application using React instead of using Angular._
+_The original prompt was to create a CRUD web application for an imaginary tap room. This new project is to recreate that old application using React instead of using Angular.  It's been awhile since I built anything in Angular, but I have noticed that it takes a lot more time to build out the component structure in React. Mostly because I'm still not 100% confident in how small the components should be so I often second guess myself. _
 
 # Project Structure
 
@@ -20,6 +20,7 @@ _The original prompt was to create a CRUD web application for an imaginary tap r
  * Really concentrating on how small of components to make. i.e. Does keg price need to be its own component? Or can I just include that in a prop-type for keg info?
  * Having to decide on a different layout for employees vs consumers. Allows for reuse of keg-list component with addition of edit/add buttons and functionality.
  * Goal is to get Welcome Page functionality finished with minimal styling.
+ * Unable to figure out how to get images to display using base64 and mapping through my object array.
 
 ## Setup/Installation Requirements
 
