@@ -10,7 +10,11 @@ _The original prompt was to create a CRUD web application for an imaginary tap r
 
 #Project Structure
 
-![alt text](imgs/adidas-page.png) 
+![alt text](imgs/adidas-page.png)
+
+## Notes
+
+ * Even during the first look at the angular application I can see that the cards that have the kegs on them will need to be broken down into a bunch of smaller components rather than a single component like it is in angular.
 
 ## Setup/Installation Requirements
 
