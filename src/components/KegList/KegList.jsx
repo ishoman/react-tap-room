@@ -1,9 +1,6 @@
 import React from 'react';
 import Keg from './Keg/Keg';
-import Buoy from './../../assets/images/buoy.jpg';
-import Burnside from './../../assets/images/burnsidebrewing.jpg';
-import Crux from './../../assets/images/crux.jpg';
-import Heater from './../../assets/images/heaterallen.png';
+
 
 const beerList = [
   {
@@ -42,7 +39,17 @@ const beerList = [
 
 function KegList() {
   return (
-    <div>
+    <div className='keg-list'>
+      <style jsx>{`
+          .keg-list {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            width: 100%;
+          }
+        `}
+
+      </style>
       <Keg/>
     </div>
   );

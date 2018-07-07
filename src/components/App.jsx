@@ -3,18 +3,29 @@ import React from 'react';
 import { Switch, Route } from 'react-router-dom';
 import Welcome from './Welcome';
 import Header from './Header';
-import Employee from './Employee';
+
 
 
 function App(){
   return (
     <div>
-      <Header/>
-      <Switch>
-        <Route exact path='/' component={Welcome}></Route>
-        <Route path='/employee' component={Employee}></Route>
-        <Route component={Error404} />
-      </Switch>
+      <style global jsx> {`
+        body {
+          font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+        }
+        .container {
+                    max-width: 1024px;
+                    margin: auto;
+        }
+      `}
+      </style>
+      <div className='container'>
+        <Header/>
+        <Switch>
+          <Route exact path='/' component={Welcome}></Route>
+          <Route component={Error404} />
+        </Switch>
+      </div>
     </div>
   );
 }

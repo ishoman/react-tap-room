@@ -10,9 +10,9 @@ _The original prompt was to create a CRUD web application for an imaginary tap r
 
 # Project Structure
 
-![alt text](Artboard.png)
+![alt text](componentTree.jpg)
 
-* I wasn't 100% sure how to structure the employee page as far as having components that hide and show when buttons are clicked. I also wasn't sure how data will be passed through input and such so I just generally said that there would be an add form for adding new kegs to the list.
+* I removed the employee component as I wasn't going to build out its functionality. I also removed the editKeg and SellPint button components as they weren't functional either.
 
 ## Notes
 

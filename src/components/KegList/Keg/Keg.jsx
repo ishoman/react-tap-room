@@ -1,7 +1,5 @@
 import React from 'react';
-import EditKeg from './KegItems/EditKeg';
 import KegInfo from './KegItems/KegInfo';
-import SellPint from './KegItems/SellPint';
 import { beerList } from './../../KegList/KegList';
 
 
@@ -9,19 +7,27 @@ import { beerList } from './../../KegList/KegList';
 function Keg() {
   return (
     <div>
-      {beerList.map((keg, index) =>
-        <KegInfo
-          name={keg.name}
-          brand={keg.brand}
-          price={keg.price}
-          abv={keg.abv}
-          remainingPints={keg.remainingPints}
-          image={keg.image}
-          key={index}
-        />
-      )}
-      <SellPint/>
-      <EditKeg/>
+      <style jsx>{`
+          .kegs {
+            display: flex;
+            width: 100%;
+            justify-content: space-around;
+          }
+        `}
+      </style>
+      <div className='kegs'>
+        {beerList.map((keg, index) =>
+          <KegInfo
+            name={keg.name}
+            brand={keg.brand}
+            price={keg.price}
+            abv={keg.abv}
+            remainingPints={keg.remainingPints}
+            image={keg.image}
+            key={index}
+            />
+        )}
+      </div>
     </div>
   );
 }

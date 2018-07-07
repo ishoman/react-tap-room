@@ -1,12 +1,27 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import EditKeg from './EditKeg';
-import SellPint from './SellPint';
+
 
 
 function KegInfo(props) {
   return (
-    <div>
+    <div className="keg-container">
+      <style jsx>{`
+          .keg-container{
+            display: flex;
+            width: 200px;
+            flex-direction: column;
+            border: 2px solid black;
+          }
+          h4 {
+            text-align: center;
+          }
+          p {
+            position: relative;
+            left: 20px;
+          }
+          `}
+      </style>
       <div>
         <img src={props.image}></img>
       </div>
@@ -16,10 +31,6 @@ function KegInfo(props) {
         <p>Price: ${props.price}</p>
         <p>Abv: {props.abv}%</p>
         <p>Pints Remaining: {props.remainingPints}</p>
-      </div>
-      <div>
-        <EditKeg/>
-        <SellPint/>
       </div>
     </div>
   );
